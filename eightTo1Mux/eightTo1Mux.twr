@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml eightTo1Mux.twx eightTo1Mux.ncd -o eightTo1Mux.twr
+eightTo1Mux.pcf -ucf constraints.ucf
+
+Design file:              eightTo1Mux.ncd
+Physical constraint file: eightTo1Mux.pcf
+Device,package,speed:     xc6slx9,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+i<0>           |out            |   12.875|
+i<1>           |out            |   13.007|
+i<2>           |out            |   12.685|
+i<3>           |out            |   12.932|
+i<4>           |out            |   12.407|
+i<5>           |out            |   12.544|
+i<6>           |out            |   11.945|
+i<7>           |out            |   12.436|
+sel<0>         |out            |   14.167|
+sel<1>         |out            |   14.060|
+sel<2>         |out            |   14.141|
+---------------+---------------+---------+
+
+
+Analysis completed Wed May 04 19:16:26 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 214 MB
+
+
+

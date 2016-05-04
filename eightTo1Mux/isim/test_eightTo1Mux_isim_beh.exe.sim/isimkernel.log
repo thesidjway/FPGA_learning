@@ -1,0 +1,10 @@
+Command line:
+   test_eightTo1Mux_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  11605
+
+Wed May 04 18:10:18 2016
+
+
+ Elaboration Time: 0.59375 sec

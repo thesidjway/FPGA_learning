@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Other Priorities/FPGA/eightTo1Mux/test_eightTo1Mux_isim_beh.exe" -prj "E:/Other Priorities/FPGA/eightTo1Mux/test_eightTo1Mux_beh.prj" "work.test_eightTo1Mux" "work.glbl" 

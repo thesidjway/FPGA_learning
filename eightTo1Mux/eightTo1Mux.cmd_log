@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/eightTo1Mux/eightTo1Mux.xst" -ofn "E:/Other Priorities/FPGA/eightTo1Mux/eightTo1Mux.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/eightTo1Mux/eightTo1Mux.xst" -ofn "E:/Other Priorities/FPGA/eightTo1Mux/eightTo1Mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "eightTo1Mux.ngc" eightTo1Mux.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eightTo1Mux_map.ncd eightTo1Mux.ngd eightTo1Mux.pcf 
+par -w -intstyle ise -ol high -mt off eightTo1Mux_map.ncd eightTo1Mux.ncd eightTo1Mux.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eightTo1Mux.twx eightTo1Mux.ncd -o eightTo1Mux.twr eightTo1Mux.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "eightTo1Mux.ngc" eightTo1Mux.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eightTo1Mux_map.ncd eightTo1Mux.ngd eightTo1Mux.pcf 
+par -w -intstyle ise -ol high -mt off eightTo1Mux_map.ncd eightTo1Mux.ncd eightTo1Mux.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eightTo1Mux.twx eightTo1Mux.ncd -o eightTo1Mux.twr eightTo1Mux.pcf 
+bitgen -intstyle ise -f eightTo1Mux.ut eightTo1Mux.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx9-csg324-2 "eightTo1Mux.ngc" eightTo1Mux.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eightTo1Mux_map.ncd eightTo1Mux.ngd eightTo1Mux.pcf 
+par -w -intstyle ise -ol high -mt off eightTo1Mux_map.ncd eightTo1Mux.ncd eightTo1Mux.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eightTo1Mux.twx eightTo1Mux.ncd -o eightTo1Mux.twr eightTo1Mux.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f eightTo1Mux.ut eightTo1Mux.ncd 
