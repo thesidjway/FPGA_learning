@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sidj\LED_1\Tutorial.ncd
+OUTFILE=C:\Users\sidj\LED_1\Tutorial.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\sidj\LED_1
+LICENSE=WebPack
+USER_INFO=211192876_0_0_713

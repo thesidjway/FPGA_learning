@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/sidj/LED_1/Tutorial.xst" -ofn "C:/Users/sidj/LED_1/Tutorial.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 Tutorial.ngc Tutorial.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tutorial_map.ncd Tutorial.ngd Tutorial.pcf 
+par -w -intstyle ise -ol high -mt off Tutorial_map.ncd Tutorial.ncd Tutorial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tutorial.twx Tutorial.ncd -o Tutorial.twr Tutorial.pcf 
+bitgen -intstyle ise -f Tutorial.ut Tutorial.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tutorial.ucf -p xc6slx9-csg324-3 Tutorial.ngc Tutorial.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tutorial.ucf -p xc6slx9-csg324-3 Tutorial.ngc Tutorial.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tutorial.ucf -p xc6slx9-csg324-3 Tutorial.ngc Tutorial.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tutorial.ucf -p xc6slx9-csg324-3 Tutorial.ngc Tutorial.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tutorial_map.ncd Tutorial.ngd Tutorial.pcf 
+par -w -intstyle ise -ol high -mt off Tutorial_map.ncd Tutorial.ncd Tutorial.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tutorial.twx Tutorial.ncd -o Tutorial.twr Tutorial.pcf -ucf Tutorial.ucf 
+bitgen -intstyle ise -f Tutorial.ut Tutorial.ncd 
