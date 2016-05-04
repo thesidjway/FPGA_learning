@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Other Priorities/FPGA/full_adder/test_full_adder_isim_beh.exe" -prj "E:/Other Priorities/FPGA/full_adder/test_full_adder_beh.prj" "work.test_full_adder" "work.glbl" 

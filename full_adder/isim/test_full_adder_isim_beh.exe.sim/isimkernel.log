@@ -1,0 +1,10 @@
+Command line:
+   test_full_adder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5839
+
+Wed May 04 15:56:17 2016
+
+
+ Elaboration Time: 0.765625 sec

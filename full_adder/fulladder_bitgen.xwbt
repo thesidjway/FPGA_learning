@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Other Priorities\FPGA\full_adder\fulladder.ncd
+OUTFILE=E:\Other Priorities\FPGA\full_adder\fulladder.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=E:\Other Priorities\FPGA\full_adder
+LICENSE=WebPack
+USER_INFO=211192876_0_0_713
