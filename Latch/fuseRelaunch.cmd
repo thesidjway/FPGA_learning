@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Other Priorities/FPGA/Latch/test_latch_isim_beh.exe" -prj "E:/Other Priorities/FPGA/Latch/test_latch_beh.prj" "work.test_latch" "work.glbl" 

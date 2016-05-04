@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Latch.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="latch.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="latch.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="latch.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="latch.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="latch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="latch.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="latch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="latch.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="latch.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="latch.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="latch.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="latch.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="latch.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="latch.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="latch.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="latch.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="latch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="latch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="latch.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="latch.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="latch.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="latch.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="latch.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="latch.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="latch_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="latch_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="latch_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="latch_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="latch_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="latch_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="latch_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="latch_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="latch_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="latch_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="latch_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="latch_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="latch_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="latch_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="latch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_latch_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_latch_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_latch_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1462390624" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1462390624">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390752" xil_pn:in_ck="-7289213134737844545" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1462390752">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="latch.v"/>
+      <outfile xil_pn:name="test_latch.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390624" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2208279306640068926" xil_pn:start_ts="1462390624">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390624" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1506603495324464512" xil_pn:start_ts="1462390624">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390624" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4029380610341520193" xil_pn:start_ts="1462390624">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390752" xil_pn:in_ck="-7289213134737844545" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1462390752">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="latch.v"/>
+      <outfile xil_pn:name="test_latch.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390755" xil_pn:in_ck="-7289213134737844545" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8201270856871914275" xil_pn:start_ts="1462390752">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_latch_beh.prj"/>
+      <outfile xil_pn:name="test_latch_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1462390756" xil_pn:in_ck="-5863767021599325094" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3566842313382589382" xil_pn:start_ts="1462390755">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_latch_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="783691928586623777" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4029380610341520193" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6123908714653641827" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745293037926" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389831" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6264757732784870581" xil_pn:start_ts="1462389831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462389979" xil_pn:in_ck="143415913264" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3553492575078870992" xil_pn:start_ts="1462389950">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="latch.lso"/>
+      <outfile xil_pn:name="latch.ngc"/>
+      <outfile xil_pn:name="latch.ngr"/>
+      <outfile xil_pn:name="latch.prj"/>
+      <outfile xil_pn:name="latch.stx"/>
+      <outfile xil_pn:name="latch.syr"/>
+      <outfile xil_pn:name="latch.xst"/>
+      <outfile xil_pn:name="latch_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1462391112" xil_pn:in_ck="-4831593407313779247" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4066557905384438414" xil_pn:start_ts="1462391112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462391119" xil_pn:in_ck="-3357003747205307453" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="99203092637399426" xil_pn:start_ts="1462391112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="latch.bld"/>
+      <outfile xil_pn:name="latch.ngd"/>
+      <outfile xil_pn:name="latch_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1462391128" xil_pn:in_ck="-3357003747205307452" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-3239470449407159120" xil_pn:start_ts="1462391119">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="latch.pcf"/>
+      <outfile xil_pn:name="latch_map.map"/>
+      <outfile xil_pn:name="latch_map.mrp"/>
+      <outfile xil_pn:name="latch_map.ncd"/>
+      <outfile xil_pn:name="latch_map.ngm"/>
+      <outfile xil_pn:name="latch_map.xrpt"/>
+      <outfile xil_pn:name="latch_summary.xml"/>
+      <outfile xil_pn:name="latch_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1462391142" xil_pn:in_ck="-1828387530614688547" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1462391128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="latch.ncd"/>
+      <outfile xil_pn:name="latch.pad"/>
+      <outfile xil_pn:name="latch.par"/>
+      <outfile xil_pn:name="latch.ptwx"/>
+      <outfile xil_pn:name="latch.unroutes"/>
+      <outfile xil_pn:name="latch.xpi"/>
+      <outfile xil_pn:name="latch_pad.csv"/>
+      <outfile xil_pn:name="latch_pad.txt"/>
+      <outfile xil_pn:name="latch_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1462391171" xil_pn:in_ck="156179929539151" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="6587536580693756888" xil_pn:start_ts="1462391157">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="latch.bgn"/>
+      <outfile xil_pn:name="latch.bin"/>
+      <outfile xil_pn:name="latch.bit"/>
+      <outfile xil_pn:name="latch.drc"/>
+      <outfile xil_pn:name="latch.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1462391142" xil_pn:in_ck="-3357003747205307584" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1462391136">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="latch.twr"/>
+      <outfile xil_pn:name="latch.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

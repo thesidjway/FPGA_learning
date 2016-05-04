@@ -1,0 +1,10 @@
+Command line:
+   test_latch_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  17736
+
+Thu May 05 01:09:18 2016
+
+
+ Elaboration Time: 0.171875 sec

@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 05 01:15:26 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "Qbar" LOCATE = SITE "P16" LEVEL 1;
+COMP "Q" LOCATE = SITE "P15" LEVEL 1;
+COMP "R" LOCATE = SITE "F18" LEVEL 1;
+COMP "S" LOCATE = SITE "F17" LEVEL 1;
+SCHEMATIC END;
+
