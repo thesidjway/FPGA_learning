@@ -1,0 +1,4 @@
+CONFIG VCCAUX = "3.3" ;
+NET "ref_clk"   LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz ;
+NET "led"       LOC = P15     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;  #D1
+

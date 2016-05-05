@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_damn_map.ncd clk_damn.ngd clk_damn.pcf 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_damn_map.ncd clk_damn.ngd clk_damn.pcf 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_damn_map.ncd clk_damn.ngd clk_damn.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_damn_map.ncd clk_damn.ngd clk_damn.pcf 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_damn_map.ncd clk_damn.ngd clk_damn.pcf 
+par -w -intstyle ise -ol high -mt off clk_damn_map.ncd clk_damn.ncd clk_damn.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml clk_damn.twx clk_damn.ncd -o clk_damn.twr clk_damn.pcf 
+bitgen -intstyle ise -f clk_damn.ut clk_damn.ncd 
+bitgen -intstyle ise -f clk_damn.ut clk_damn.ncd 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_damn.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_damn.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx9-csg324-2 "clk_damn.ngc" clk_damn.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_damn_map.ncd clk_damn.ngd clk_damn.pcf 
+par -w -intstyle ise -ol high -mt off clk_damn_map.ncd clk_damn.ncd clk_damn.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml clk_damn.twx clk_damn.ncd -o clk_damn.twr clk_damn.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f clk_damn.ut clk_damn.ncd 

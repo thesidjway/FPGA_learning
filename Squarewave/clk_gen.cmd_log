@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Other Priorities/FPGA/Squarewave/clk_gen.xst" -ofn "E:/Other Priorities/FPGA/Squarewave/clk_gen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "clk_gen.ngc" clk_gen.ngd  
